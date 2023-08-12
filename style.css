@@ -91,6 +91,10 @@ nav ul li a:hover::after{
     color: #ababab;
 }
 
+.about-col-2 p {
+    text-align: justify;
+}
+
 .row{
     display: flex;
     justify-content: space-between;
@@ -161,6 +165,20 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
+
+.tab-contents.active-tab {
+    text-align: justify;
+}
+
+.tab-contents.active-tab ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tab-contents.active-tab li {
+    margin: 0;
+    padding: 0;
+}    
 
 /*----------------Services-------------------*/
 
